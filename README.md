@@ -11,6 +11,3 @@ Analyze Website Performance by finding Top Website Content and Conversion Funnel
   <li>MySQL Database Administration</li>
 </ul>    
 
-
-
-https://github.com/JennyNgo273/LandingPage/blob/master/LP.png
