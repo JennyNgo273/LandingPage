@@ -11,43 +11,37 @@ The budget is allocated to drive two primary objectives:
 ## Dataset Structure
 The dataset consisted of five tables, including information about website traffic data, website page view, orders, products, as well as specific order item.
 
-<img width="612" alt="image" src="https://github.com/christinejiang11/rowhealth/assets/56368090/c51a152c-796c-4e64-82b4-db3141a88e0c">
+![Data Structure](https://github.com/JennyNgo273/LandingPage/blob/master/Data-structure.PNG)
+
 
 ## Insights Summary
 #### In order to evaluate campaign performance, we focused on the following key metrics:
-- **Signup Rate**: The percent of people who see a campaign and subsequently sign up for a Row Health plan. 
-- **Cost per Signup**: The average dollars spent in order to acquire a signup from each campaign.
-- **Click through Rate**: The percent of people who see a campaign and click on the associated link.
+- **Conversion Rate**: The percent of website visitor who complete making a purchase. 
+- **Product per Order**: The average number of products a customer buys in each product.
+- **Seasonal Trends**: Recurring, predictable fluctuations in key metrics sessions, orders over different periods within the year.
 
-#### Signup Rate
-- Across campaign categories, Health for All campaigns had the best-performing signup rate (2.9%) and the second-highest number of signups (3.5K).
-- This high signup rate is due to the Health Awareness campaign type, which had by far the highest signup rate across all campaign types (3.72%).
-- Interestingly, the category with the highest number of signups - #HealthyLiving - had a comparably low signup rate at 0.3%.
+#### Conversion Rate
+- Across campaign categories, the Brand campaign had the best performing conversion rate at (8.13%), but it ranked third in total orders (2,433 out of 5 campaigns).
+- Interestingly, the Non-Brand campaign specifically from Google-search source generated the highest number of orders (12407) and sessions (164296) but had a lower conversion rate of 7.55%.
+- The lower conversion rate for Non-Brand campaigns suggests that while it drives substantial traffic, visitors may be less targeted or require further engagement to convert.
 
-#### Click through Rate
-- Across categories, Health for All and Benefit Updates performed nearly 3-4x better than the average CTR at 36% and 22%, respectively. 
-- Within the two categories with high CTR, product promotion-based campaigns had relatively low CTR (0% and 7%).
-- Family Coverage Plan had high impressions but no clicks - this needs to be investigated and could be due to missing data or issues with the campaign.
+#### Product per Order
+- Across products, The Hudson River Mini Bear, The Birthday Sugar Panda, and The Forever Love Bear all performed nearly 4-5x better than the average PPO at 1.34. 
+- The Original Mr. Fuzzy is a bestseller and drives the highest total revenue, but its PPO is the lowest (1.93), which is typically bought as a single unit per order.
+- The Forever Love Bear has the highest AOV ($12.04) and PPO (6.67), indicating strong suggests potential pricing optimization opportunities
 
-#### Cost per Signup
-- Across campaign categories, Golden Years Security had by far the highest cost per signup ($124), as well as the lowest number of signups (23), compared to an average of $2.2.
-- Within the two campaign categories with highest cost per signup, info-based campaign types (like offers and policy info) drove high costs per signup.
-- Some COVID-based campaigns also had abnormally high CACs at $1.2-$1.3K.
+#### Seasonal Trends
+- Sessions and orders showed steady growth throughout the year, with peak activity in Q4 (October-December). December recorded the highest sessions (29,722) and orders (2,314).
+- In 2014, orders grew at a faster rate than sessions, orders grew 135% (983 → 2,314) while sessions increased 100% (14,825 → 29,722).
 
 ## Recommendations
-- **Health for All**: Reallocate budget from Golden Years Security, which has high cost per acquisition, to Health for All campaigns. The second category outperforms across all key metrics, yet we have invested a relatively low amount ($20K) on them.
-- **Health Awareness**: Within Health for All campaigns, focus on health awareness-type marketing, and less on product promotion-type campaigns, which had low signup rate and CTR.
-- **COVID Campaigns**: Investigate the cause of abnormally high cost per signup for COVID-based campaigns, which had 2 signups that costed over $1K, compared to an average signup cost of $2.2. Consider removing these campaigns altogether.
-- **#HealthyLiving**: Decrease investment in this campaign category, which has the highest spend ($46K) but mediocre signup rates compared to Health for All campaigns.
+- **Non-Brand Campaign (Google Search Source)**: Conduct A/B testing to optimize landing pages, deep dive into segment and optimize by devide (mobile, desktop) to identify disparities in conversion behavior and streamline user experience to get higher order rates in return.
+- **The Original Mr. Fuzzy**: Introduce bundle deals, upsell personalized add-ons, and implement a cross-selling strategy, like with The Forever Love Bear products to increase PPO and repeat purchases.
+- **The Forever Love Bear**: Implement tiered pricing discounts, explore bulk corporate partnerships, and introduce seasonal editions to boost AOV while maintaining high PPO.
+- **2015 Forecast & Trend Strategy**: Prepare early for Q4 peak demand, leverage seasonal marketing campaigns year-round, and use predictive data to optimize ad spend and inventory planning.
 
 ## Dashboard
 The dashboard can be found in Tableau Public [here](https://public.tableau.com/app/profile/christine3803/viz/RowHealthDashboard/Dashboard). This dashboard enables users to filter by plan, campaign type, and state, and focuses on trends and values in marketing metrics, signup metrics, and claim metrics.
 
 <img width="812" alt="image" src="https://github.com/christinejiang11/rowhealth/assets/56368090/86756aa4-a0d8-44eb-a0d5-c128816f42ac">
 
-## Presentation Sample
-The presentation created for the marketing team walks through the insights and recommendations above and can be found [here](https://docs.google.com/presentation/d/1dvnGsNz3-HGzlj6jgltQ8Ly1p01WQUWZ/edit#slide=id.p14). Some extracts are presented below for easy viewing.
-
-<img width="812" alt="image" src="https://github.com/christinejiang11/rowhealth/assets/56368090/ee52d0f8-1552-4a35-ba04-a65634560f2d">
-<img width="812" alt="image" src="https://github.com/christinejiang11/rowhealth/assets/56368090/5c964664-41ee-4773-bec8-cbe3bab3063a">
-<img width="812" alt="image" src="https://github.com/christinejiang11/rowhealth/assets/56368090/30a06221-ddbd-4447-aadd-287c622b5a2f">
