@@ -1,7 +1,7 @@
 # Maven Fuzzy Factory Marketing Insights 2014 - 2015 - Project Overview
 ## The goal of this project is to investigate the performance of marketing campaigns at Maven Fuzzy Factory in order to surface recommendations on marketing budget allocation across future campaign categories. 
 
-**Founded in 2012, Maven Fuzzy Factory is a e-commerce company that sells popular toys especially types of bear via its website and mobile app**. **In 2014 - 2015 , they launched a fourth product targeting the birthday gift market - The Hudson River Mini Bear and giving customers the option to add 2nd product while on the /cart page** to implement the **cross selling** analysis. 
+**Founded in 2012, Maven Fuzzy Factory is an e-commerce company that sells popular toys especially types of bears via its website and mobile app**. **In 2014 - 2015, they launched a fourth product targeting the birthday gift market - The Hudson River Mini Bear and giving customers the option to add 2nd product while on the /cart page** to implement the **cross selling** analysis. 
 
 Now that they’ve hired a new data team and are strategizing their marketing budget for the year, the company would like to build more understanding of the effectiveness of these campaign categories and how they relate to launching new product and cross selling option. 
 The budget is allocated to drive two primary objectives:
@@ -35,13 +35,13 @@ The dataset consisted of five tables, including information about website traffi
 - In 2014, orders grew at a faster rate than sessions, orders grew 135% (983 → 2,314) while sessions increased 100% (14,825 → 29,722).
 
 ## Recommendations
-- **Non-Brand Campaign (Google Search Source)**: Conduct A/B testing to optimize landing pages, deep dive into segment and optimize by devide (mobile, desktop) to identify disparities in conversion behavior and streamline user experience to get higher order rates in return.
+- **Non-Brand Campaign (Google Search Source)**: Conduct A/B testing to optimize landing pages, deep dive into segment and optimize by device (mobile, desktop) to identify disparities in conversion behaviour and streamline user experience to get higher order rates in return.
 - **The Original Mr. Fuzzy**: Introduce bundle deals, upsell personalized add-ons, and implement a cross-selling strategy, like with The Forever Love Bear products to increase PPO and repeat purchases.
 - **The Forever Love Bear**: Implement tiered pricing discounts, explore bulk corporate partnerships, and introduce seasonal editions to boost AOV while maintaining high PPO.
 - **2015 Forecast & Trend Strategy**: Prepare early for Q4 peak demand, leverage seasonal marketing campaigns year-round, and use predictive data to optimize ad spend and inventory planning.
 
 ## Dashboard
-The dashboard can be found in Tableau Public [here](https://public.tableau.com/app/profile/christine3803/viz/RowHealthDashboard/Dashboard). This dashboard enables users to filter by plan, campaign type, and state, and focuses on trends and values in marketing metrics, signup metrics, and claim metrics.
+The dashboard can be found in PoerBI Service [here](https://public.tableau.com/app/profile/christine3803/viz/RowHealthDashboard/Dashboard). This dashboard enables users to filter by plan, campaign type, and state, and focuses on trends and values in marketing metrics, signup metrics, and claim metrics.
 
 <img width="812" alt="image" src="https://github.com/christinejiang11/rowhealth/assets/56368090/86756aa4-a0d8-44eb-a0d5-c128816f42ac">
 
